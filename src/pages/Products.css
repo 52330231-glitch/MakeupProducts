@@ -36,4 +36,12 @@
   .products-section {
     padding: 20px 15px 50px;
   }
+  .products-page .product-image.lipstick-image {
+    object-position: center 37% !important;
+  }
+
+  .products-page .product-image.foundation-image {
+    object-position: center 40% !important;
+  }
 }
+
