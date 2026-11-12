@@ -1,0 +1,39 @@
+.products-page {
+  width: 100%;
+  min-height: 100%;
+}
+
+.products-header {
+  padding: 55px 20px 40px;
+}
+
+.products-header h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(35px, 5vw, 50px);
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.products-header > p:last-child {
+  color: #98717f;
+  font-size: 16px;
+}
+
+.products-section {
+  width: 100%;
+  padding: 25px 5% 75px;
+}
+
+.app.dark .products-header > p:last-child {
+  color: #d5b9c5;
+}
+
+@media (max-width: 576px) {
+  .products-header {
+    padding: 40px 15px 25px;
+  }
+
+  .products-section {
+    padding: 20px 15px 50px;
+  }
+}
