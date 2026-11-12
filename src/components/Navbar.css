@@ -1,0 +1,118 @@
+.navbar {
+  padding: 15px 0;
+  transition: 0.3s;
+}
+
+.navbar-light.bg-light {
+  background-color: #fcebf1 !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #641d35;
+  font-family: Georgia, serif;
+  font-size: 25px;
+}
+
+.navbar-light .nav-link {
+  color: #641d35;
+  font-weight: 500;
+  margin: 0 8px;
+}
+
+.navbar-light .nav-link:hover {
+  color: #c06b8b;
+}
+
+.navbar-dark.bg-dark {
+  background-color: #291923 !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #f2b7cc;
+  font-family: Georgia, serif;
+  font-size: 25px;
+}
+
+.navbar-dark .nav-link {
+  color: #f5dce5;
+  font-weight: 500;
+  margin: 0 8px;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #e9a9bd;
+}
+
+.btn-outline-secondary {
+  border: 1px solid #e9a9bd;
+  color: #641d35;
+  border-radius: 25px;
+  padding: 8px 18px;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #e9a9bd;
+  color: #641d35;
+  border-color: #e9a9bd;
+}
+
+.navbar-toggler {
+  border-color: #e9a9bd;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.15rem rgba(233, 169, 189, 0.4);
+}
+
+.navbar-dark .navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+@media (max-width: 991px) {
+  .navbar {
+    padding: 14px 0;
+  }
+
+  .navbar-collapse {
+    margin-top: 15px;
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(100, 29, 53, 0.10);
+    transition: all 0.3s ease;
+  }
+
+  .navbar-light .navbar-collapse {
+    background-color: #fff0f4;
+    border: 1px solid #f0d5df;
+  }
+
+  .navbar-dark .navbar-collapse {
+    background-color: #35232e;
+    border: 1px solid #684153;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    border-bottom: 1px solid rgba(180, 120, 145, 0.2);
+  }
+
+  .navbar-nav .nav-item:last-child {
+    border-bottom: none;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 13px 10px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .navbar-collapse .btn {
+    display: block;
+    margin: 15px auto 0 !important;
+    min-width: 130px;
+  }
+}

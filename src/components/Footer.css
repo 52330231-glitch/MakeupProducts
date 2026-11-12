@@ -1,0 +1,21 @@
+.custom-footer {
+  width: 100%;
+  text-align: center;
+  padding: 18px;
+  transition: 0.3s;
+}
+
+.custom-footer.light {
+  background-color: #fcebf1;
+  color: #641d35;
+}
+
+.custom-footer.dark {
+  background-color: #291923;
+  color: #f2b7cc;
+}
+
+.custom-footer p {
+  margin: 0;
+  font-size: 14px;
+}
